@@ -1,4 +1,4 @@
-from modelos.ArticuloModel import ArticuloModel
+from app.modelos.ArticuloModel import ArticuloModel
 
 class ArticuloController:
 

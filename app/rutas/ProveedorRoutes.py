@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from controladores.ProveedorController import ProveedorController
+from app.controladores.ProveedorController import ProveedorController
 proveedor_bp = Blueprint('proveedor_bp', __name__)
 
 @proveedor_bp.route('/proveedores', methods=['GET'])

@@ -1,4 +1,4 @@
-from modelos.ProveedorModel import ProveedorModel
+from app.modelos.ProveedorModel import ProveedorModel
 
 class ProveedorController:
 

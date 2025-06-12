@@ -1,4 +1,4 @@
-from modelos.CategoriaModel import CategoriaModel
+from app.modelos.CategoriaModel import CategoriaModel
 
 class CategoriaController:
 

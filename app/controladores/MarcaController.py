@@ -1,4 +1,4 @@
-from modelos.MarcaModel import MarcaModel
+from app.modelos.MarcaModel import MarcaModel
 
 class MarcaController:
     

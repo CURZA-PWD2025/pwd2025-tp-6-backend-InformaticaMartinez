@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from controladores.CategoriaController import CategoriaController
+from app.controladores.CategoriaController import CategoriaController
 
 categoria_bp = Blueprint('categoria_bp', __name__)
 

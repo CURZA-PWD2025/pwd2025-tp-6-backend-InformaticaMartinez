@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from controladores.ArticuloController import ArticuloController
+from app.controladores.ArticuloController import ArticuloController
 
 articulo_bp = Blueprint('articulo_bp', __name__)
 
